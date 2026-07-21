@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.klangjager" name="KlangJager Repository" version="1.0.0" provider-name="mryager">
+    <extension point="xbmc.addon.repository" name="KlangJager Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/mryager/kodi-repository/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mryager/kodi-repository/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mryager/kodi-repository/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio KlangJager</summary>
+        <description>Repositorio personal para mantener actualizada la skin KlangJager en Kodi.</description>
+        <platform>all</platform>
+    </extension>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+</addon>
