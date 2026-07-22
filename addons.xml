@@ -69,4 +69,27 @@
 			<disclaimer lang="es_MX">Esta skin esta basada en Estuary y en otros trabajos de la comunidad.</disclaimer>
 		</extension>
 	</addon>
+
+    <!-- AddOn screensaver.backhome -->
+	<addon id="script.screensaver.backhome" name="BackHome" version="1.0.0" provider-name="KlangJager">
+	  <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	  </requires>
+	  <extension point="xbmc.ui.screensaver" library="addon.py" />
+	  <extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website>https://github.com/mryager/script.screensaver.backhome</website>
+		<source>https://github.com/mryager/script.screensaver.backhome</source>
+		<email>mryager@gmail.com</email>
+		<assets>
+		  <icon>icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Returns to the Home screen after the screensaver timeout.</summary>
+		<summary lang="es_ES">"Screensaver" que regresa automáticamente a la pantalla principal.</summary>
+		<description lang="en_GB">Instead of displaying a screensaver, this addon returns Kodi to the Home screen when the configured screensaver timeout expires, provided that no media is playing.</description>
+		<description lang="es_ES">No es un salvapantallas visual, regresa a la pantalla principal al pasar el tiempo establecido en el protector de pantalla siempre que no haya reproducción.</description>
+	  </extension>
+	</addon>
 </addons>
